@@ -102,7 +102,7 @@ button {
 
 /* Articles Section */
  
- /* Second Main Section */
+  /* Second Main Section */
 .main-article-container {
    display: flex;
    justify-content: center;
@@ -160,7 +160,7 @@ h2#article-title {
 }
 
 
- /* Third Main Section */
+  /* Third Main Section */
 
 .second-article-container {
     margin-top: 100px;
@@ -184,4 +184,52 @@ p.owner{
     padding-top: 20px;
 }
 
-/* Last Main Section */
+  /* Last Main Section */
+
+.last-article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+
+
+.last-article-content {
+    border-radius: 12px;
+    background-color: #3882F6;
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
+h2.box {
+    color: #F9FAF8;
+    margin-left: 430px;
+    margin-bottom: 20px;
+}
+
+p.last-article-paragraph {
+    color: #F9FAF8;;
+    margin-left: 430px;
+}
+
+.join-container {
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+    margin-left: 560px;
+    margin-top: 20px;
+}
+
+/* End Of The Article Sections */
+
+
+
+/* Footer Section */
